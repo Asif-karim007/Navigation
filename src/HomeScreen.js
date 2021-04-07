@@ -20,8 +20,24 @@ function HomeScreen({navigation}) {
             />
 
       <Button
-      title="Images"
+      title="go to images demo"
       onPress={() => navigation.navigate("image")}
+      />
+      <Button
+      title="Go to counter screen demo"
+      onPress={() => navigation.navigate("compo")}
+      />
+      <Button
+      title="Go to color screen demo"
+      onPress={() => navigation.navigate("Color")}
+      />
+      <Button
+      title="GO TO squire screen demo"
+      onPress={() => navigation.navigate("squire")}
+      />
+      <Button
+      title="GO TO text screen demo"
+      onPress={() => navigation.navigate("text")}
       />
     </View>
     )};
